@@ -1,0 +1,65 @@
+* {box-sizing: border-box:}
+
+
+body{ background-image: rgb(238,235,235, 0.6);
+}
+
+#todo {display: grid;
+		grid-template-columns: auto auto 400px;
+		grid-template-rows: 200px 50px auto auto;
+		background-image: url("sunset.jpg");
+		background-size: cover;
+	
+
+}
+
+h1 {font-family: lobster, sans-serif;
+	text-align: center;
+}
+
+banner {font-size: 2em;
+		text-align: center;
+		grid-area: 1 / 1 / 1 / span 3;
+		font-family: lobster, sans serif;
+}
+
+nav{	text-align: center;
+		margin-right: 50px;
+		grid-area: 2 / 1 / 2 / 4;
+		font-size: 20px;
+}
+
+
+nav li{list-style-type: none;
+		display:inline-flex;
+		
+}	
+
+
+#list li + li::before{
+	content: ">";
+}
+
+#timeline {font-size:1.5em;
+			grid-area: 3 / 3 / 4 / 3;
+			font-family: georgia;
+			height: 1000px;
+			cursor: pointer;
+		
+}
+
+#timeline h2 {font-family: lobster, sans serif;}
+
+
+figure {margin-top: 50px;
+		text-align: center;
+		float:left;
+		}
+h2 {font-family: lobster, sans-serif;
+	}
+
+p {font-size: 20px;}
+		
+#foot {dsplay:inline-flex;
+}
+	
