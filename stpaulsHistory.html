@@ -3,7 +3,7 @@
 <head> 
 	<title></title>
 	<meta charset = "utf-8">
-	<link href= rel="stylesheet">
+	
 	<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lobster&family=Merriweather:ital@0;1&family=Space+Mono&display=swap" rel="stylesheet">
 <style>
 body {background-color: rgb(238,235,235, 0.3);
@@ -17,24 +17,40 @@ h1 {text-align: center;
 		width: auto;
 		height:auto;
 		grid-template-rows: auto auto;
-		grid-template-columns: auto auto;}
+		grid-template-columns: auto auto;
+		}
 		
 #snow {
+		
 		}
 		
 #text {
 		}
 
-#foto {
-	
+
+
+#foto {opacity:1.0;
+	position:absolute;
+
 }
+
+#foto:hover {opacity: 0;
+
+}
+#foto2{poition:absolute;}
+
 h2 {font-family: lobster, sans-serif;}
 </style>
+<script>
+
+</script>
 </head> 
 <body>
 	<h1>St Pauls Cathedral</h1>
 	<div id="body">
-	<div id="snow"><figure><image id="foto" src ="stpaulsSnow.jpg" width="416px" height = "312" alt="Stp Pauls Cathedral" title="St Pauls Cathedral"><figcaption>St Pauls Cathedral</figcaption></figure>
+	<div id="snow"><figure>	<image id="foto" src ="stpaulsSnow.jpg" width="416px" height = "312" alt="Stp Pauls Cathedral" title="St Pauls Cathedral">
+	<image id='foto2' src = 'stpaulssunny2.jpg' height = '312px' width='416px'>
+	<figcaption>St Pauls Cathedral</figcaption></figure>
 
 </div>
 <div><h2>History</h2>	
